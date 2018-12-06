@@ -1,0 +1,13 @@
+MAIN entry located in: 
+	FSM_TCP
+
+COMPILE:
+	(if Fsm.jar is located in ./lib) 
+	javac -cp ../lib/Fsm.jar *.java
+
+RUN: 
+	java -cp ../lib/Fsm.jar:. FSM_TCP
+
+
+generate .JAR file:
+	jar cvf name.jar *.java  
